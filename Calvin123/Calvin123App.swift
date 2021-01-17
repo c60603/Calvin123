@@ -13,7 +13,7 @@ struct Calvin123App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Copver()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
